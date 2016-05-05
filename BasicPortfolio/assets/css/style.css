@@ -1,3 +1,128 @@
-.container{
-	background-color: #AA3131;
+body {
+	margin: 0;
+	padding: 0;
+	font-size: 18px;
+	line-height: 150%;
+	font-family: "Arial",Helvetica,serif;
+	color: #333333;
+	overflow: hidden;
+}
+h2 {
+	font-size: 24px;
+}
+.container {
+	width: 1024px;
+	margin: 0 auto;
+	margin-top: 30px;
+	background-color: #e1e3e4;
+}
+#header {
+	position: relative;
+	height: 60px;
+	background-color: white;
+}
+.main{
+	width: 950px;
+	background-color: white;
+	font-size: 14px;
+	text-transform: uppercase;
+}
+.name_tag{
+	background-color: #3c948b;
+	float: left;
+	width: 280px;
+	margin-left: 80px;
+}
+.name_tag_text{
+	color: #eee;
+	font-size: 20px;
+	text-align: center;
+	line-height: 60px;
+}
+/* NAV */
+
+.nav {
+    position: relative;
+    display: inline;
+    float: right;
+    line-height: 48px;
+    width: 300px;
+}
+.menu {
+    float: left;
+}
+.main_nav {
+    list-style-type: none;
+    background-color: #f4f4f4;
+}
+
+.main_list {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #202121;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #3c948b;
+    color:white;
+}
+#main-bio {
+	background-color: white;
+	margin-left: 80px;
+	clear: both;
+	padding: 20px;
+	width: 500px;
+	float: left;
+}
+#contact-info {
+	width: 30%;
+	float: right;
+}
+#bio-image {
+	width: 170px;
+	height: 200px;
+	float: left;
+	margin-right: 20px;
+}
+.bio-link {
+	color: #0261a0 !important;
+  line-height: 16px;
+  text-decoration: none !important;
+}
+#footer {
+    position: relative;
+    clear: both;
+    margin-top: 1px;
+    color: #444;
+    overflow: hidden;
+}
+#footer .box-featured {
+    padding: 80px 0 0 0;
+    background: #202121;
+    border-bottom: 1px solid #333;
+    overflow: hidden;
+}
+#footer .box-featured h4 {
+    clear: both;
+    margin-bottom: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+#footer .box-featured h4 span {
+    color: #3C948B;
+}
+#footer .box-featured h4:before {
+    content: '';
+    display: block;
+    width: 140px;
+    height: 5px;
+    margin: 0 auto 25px auto;
+    background-color: #3C948B;
 }
