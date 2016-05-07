@@ -105,6 +105,7 @@ li a:active {
   line-height: 16px;
   text-decoration: none !important;
 }
+/* CONTACT LIST */
 #contact-info {
 	background-color: white;
 	margin-right: 115px;
@@ -112,6 +113,43 @@ li a:active {
 	float: right;
 	width: 20%;
 }
+.list-share{
+	display: inline-block;
+   padding-top: 70px;
+}
+.list-share li {
+    border: 1px solid #ccc;
+    cursor: pointer;
+    float: left;
+    height: 49px;
+    margin-right: 5px;
+    overflow: hidden;
+    transform: translateZ(0px);
+    transition: all 0.25s ease-out 0s;
+    width: 49px;
+}
+.git_hub{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    padding: 0px;
+    background-color:transparent;
+}
+.twitter{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    padding: 0px;
+    background-color:transparent;
+}
+.linkedin{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    padding: 0px;
+    background-color:transparent;
+}
+
 /* PORTFOLIO */
 #content {
     background: #fff url("./assets/images/content-bg.png") repeat-y scroll 0 0;
