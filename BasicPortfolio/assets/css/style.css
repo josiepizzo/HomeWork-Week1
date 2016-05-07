@@ -17,6 +17,7 @@ h2 {
 	margin: 0 auto;
 	width: 1024px;
 }
+/* HEADER */
 #header {
 	background-color: white;
 	height: 60px;
@@ -25,6 +26,7 @@ h2 {
 .main{
 	background-color: white;
 	font-size: 14px;
+	margin-top: 20px;
 	text-transform: uppercase;
 	width: 950px;
 }
@@ -56,7 +58,6 @@ h2 {
   background-color: #f4f4f4;
   list-style-type: none;
 }
-
 .main_list {
   float: left;
 }
@@ -68,11 +69,6 @@ li a{
   text-align: center;
   text-decoration: none;
 }
-/* visited link 
-li a:visited {
-    color: red;
-}*/
-
 /* mouse over link */
 li a:hover {
   background-color: #3c948b;
@@ -82,7 +78,11 @@ li a:hover {
 li a:active {
     color: #e1e3e4;
 }
-
+/* active link */
+.active {
+    background-color: #3c948b;
+    color:white;
+}
 #main-bio {
 	background-color: white;
 	clear: both;
@@ -91,9 +91,8 @@ li a:active {
 	padding: 20px;
 	width: 500px;
 }
-#contact-info {
-	float: right;
-	width: 30%;
+.main-bio-text{
+	margin-bottom: 10px;
 }
 #bio-image {
 	float: left;
@@ -106,15 +105,52 @@ li a:active {
   line-height: 16px;
   text-decoration: none !important;
 }
+#contact-info {
+	background-color: white;
+	margin-right: 115px;
+	padding: 20px;
+	float: right;
+	width: 20%;
+}
+/* PORTFOLIO */
+#content {
+    background: #fff url("./assets/images/content-bg.png") repeat-y scroll 0 0;
+    float: left;
+    margin-left: 80px;
+    margin-top: 20px;
+    overflow: hidden;
+    padding: 20px;
+    width: 50%;
+}
+.portfolio-item {
+    background: #eee none repeat scroll 0 0;
+    float: left;
+    margin: 0 7px 14px;
+    padding: 4px;
+    text-align: center;
+    width: 182px;
+ }
+ #content .portfolio-item p.btn {
+    margin: 0;
+    background-color: #3c948b;
+}
+ #content .portfolio-item a.image_text {
+    margin: 0;
+    color: #fff;
+    text-decoration: none;
+}
+/* FOOTER */
 #footer {
     position: relative;
     clear: both;
     margin-top: 1px;
     color: #444;
     overflow: hidden;
+    padding-top:20px;
 }
 #footer .box-featured {
-    padding: 15px 0 0 0;
+	border-top: 3px solid #3C948B;
+    padding: 20px 0 0 0;
     background: #202121;
     border-bottom: 1px solid #333;
     overflow: hidden;
@@ -128,12 +164,4 @@ li a:active {
 }
 #footer .box-featured h4 span {
     color: #3C948B;
-}
-#footer .box-featured h4:before {
-    content: '';
-    display: block;
-    width: 140px;
-    height: 5px;
-    margin: 0 auto 25px auto;
-    background-color: #3C948B;
 }
