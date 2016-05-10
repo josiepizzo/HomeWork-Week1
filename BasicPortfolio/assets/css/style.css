@@ -4,7 +4,6 @@ body {
 	font-size: 18px;
 	line-height: 150%;
 	margin: 0;
-	overflow: hidden;
 	padding: 0;
 }
 h2 {
@@ -35,6 +34,11 @@ h2 {
 	float: left;
 	margin-left: 80px;
 	width: 280px;
+}
+.name_tag a{
+  color:white;
+  cursor: pointer;
+  text-decoration: none;
 }
 .name_tag_text{
 	color: #eee;
@@ -80,8 +84,8 @@ li a:active {
 }
 /* active link */
 .active {
-    background-color: #3c948b;
-    color:white;
+  background-color: #3c948b;
+  color:white;
 }
 #main-bio {
 	background-color: white;
@@ -107,103 +111,100 @@ li a:active {
 }
 /* CONTACT LIST */
 #contact-info {
-	background-color: white;
-	margin-right: 115px;
-	padding: 20px;
-	float: right;
-	width: 20%;
+  background-color: white;
+  float: right;
+  margin-right: 115px;
+  padding: 20px;
+  width: 20%;
 }
 .list-share{
 	display: inline-block;
-   padding-top: 70px;
+  padding-top: 70px;
 }
 .list-share li {
-    border: 1px solid #ccc;
-    cursor: pointer;
-    float: left;
-    height: 49px;
-    margin-right: 5px;
-    overflow: hidden;
-    transform: translateZ(0px);
-    transition: all 0.25s ease-out 0s;
-    width: 49px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  float: left;
+  height: 49px;
+  margin-right: 5px;
+  overflow: hidden;
+  transform: translateZ(0px);
+  transition: all 0.25s ease-out 0s;
+  width: 55px;
 }
 .list-share li a:hover {
   background-color: black;
 }
 
 .git_hub{
-    display: block;
-    text-align: center;
-    text-decoration: none;
-    padding: 0px;
-    background-color:transparent;
+  background-color:transparent;
+  padding: 0px;
+  text-align: center;
+  text-decoration: none;
 }
 .twitter{
-    display: block;
-    text-align: center;
-    text-decoration: none;
-    padding: 0px;
-    background-color:transparent;
+  background-color:transparent;
+  padding: 0px;
+  text-align: center;
+  text-decoration: none;
 }
 .linkedin{
-    display: block;
-    text-align: center;
-    text-decoration: none;
-    padding: 0px;
-    background-color:transparent;
+  background-color:transparent;
+  display: block;
+  padding: 0px;
+  text-align: center;
+  text-decoration: none;
 }
-
 /* PORTFOLIO */
 #content {
-    background: #fff url("./assets/images/content-bg.png") repeat-y scroll 0 0;
-    float: left;
-    margin-left: 80px;
-    margin-top: 20px;
-    overflow: hidden;
-    padding: 20px;
-    width: 50%;
+  background: #fff url("./assets/images/content-bg.png") repeat-y scroll 0 0;
+  float: left;
+  margin-left: 80px;
+  margin-top: 20px;
+  overflow: hidden;
+  padding: 20px;
+  width: 50%;
 }
 .portfolio-item {
-    background: #eee none repeat scroll 0 0;
-    float: left;
-    margin: 0 7px 14px;
-    padding: 4px;
-    text-align: center;
-    width: 182px;
+  background: #eee none repeat scroll 0 0;
+  float: left;
+  margin: 0 7px 14px;
+  padding: 4px;
+  text-align: center;
+  width: 182px;
  }
  #content .portfolio-item p.btn {
-    margin: 0;
-    background-color: #3c948b;
+  background-color: #3c948b;
+  margin: 0;
 }
  #content .portfolio-item a.image_text {
-    margin: 0;
-    color: #fff;
-    text-decoration: none;
+  color: #fff;
+  margin: 0;
+  text-decoration: none;
 }
 /* FOOTER */
 #footer {
-    position: relative;
-    clear: both;
-    margin-top: 1px;
-    color: #444;
-    overflow: hidden;
-    padding-top:20px;
+  clear: both;
+  color: #444;
+  margin-top: 1px;
+  overflow: hidden;
+  padding-top:20px;
+  position: relative;
 }
 #footer .box-featured {
-	border-top: 3px solid #3C948B;
-    padding: 20px 0 0 0;
-    background: #202121;
-    border-bottom: 1px solid #333;
-    overflow: hidden;
+  border-top: 3px solid #3C948B;
+  background: #202121;
+  border-bottom: 1px solid #333;
+  overflow: hidden;
+  padding: 20px 0 0 0;
 }
 #footer .box-featured h4 {
-    clear: both;
-    margin-bottom: 10px;
-    text-align: center;
-    text-transform: uppercase;
-    font-size: 14px;
+  clear: both;
+  font-size: 14px;
+  margin-bottom: 10px;
+  text-align: center;
+  text-transform: uppercase;
 }
 #footer .box-featured h4 span {
-    color: #3C948B;
+  color: #3C948B;
 }

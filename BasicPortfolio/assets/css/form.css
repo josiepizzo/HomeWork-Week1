@@ -1,9 +1,9 @@
 @import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
 
 #form-main{
-  width:100%;
   float:left;
   padding-top:0px;
+  width:100%;
 }
 
 #form-div {
@@ -30,60 +30,60 @@
 
 .feedback-input:focus{
   background: #fff;
-  box-shadow: 0;
   border: 3px solid #3498db;
+  box-shadow: 0;
   color: #3498db;
   outline: none;
   padding: 13px 13px 13px 54px;
 }
 
 .focused{
-  color:#30aed6;
   border:#30aed6 solid 3px;
+  color:#30aed6;
 }
 
 /* Icons ---------------------------------- */
 #name{
   background-image: url(http://rexkirby.com/kirbyandson/images/name.svg);
-  background-size: 30px 30px;
   background-position: 11px 8px;
   background-repeat: no-repeat;
+  background-size: 30px 30px;
 }
 
 #name:focus{
   background-image: url(http://rexkirby.com/kirbyandson/images/name.svg);
-  background-size: 30px 30px;
-  background-position: 8px 5px;
   background-position: 11px 8px;
+  background-position: 8px 5px;
   background-repeat: no-repeat;
+  background-size: 30px 30px;
 }
 
 #email{
   background-image: url(http://rexkirby.com/kirbyandson/images/email.svg);
-  background-size: 30px 30px;
   background-position: 11px 8px;
   background-repeat: no-repeat;
+  background-size: 30px 30px;
 }
 
 #email:focus{
   background-image: url(http://rexkirby.com/kirbyandson/images/email.svg);
-  background-size: 30px 30px;
   background-position: 11px 8px;
   background-repeat: no-repeat;
+  background-size: 30px 30px;
 }
 
 #comment{
   background-image: url(http://rexkirby.com/kirbyandson/images/comment.svg);
-  background-size: 30px 30px;
   background-position: 11px 8px;
   background-repeat: no-repeat;
+  background-size: 30px 30px;
 }
 
 textarea {
-    width: 100%;
-    height: 150px;
-    line-height: 150%;
-    resize:vertical;
+  height: 150px;
+  line-height: 150%;
+  resize:vertical;
+  width: 100%;
 }
 
 input:hover, textarea:hover,
@@ -92,21 +92,18 @@ input:focus, textarea:focus {
 }
 
 #button-blue{
-  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
-  float:left;
-  width: 100%;
-  border: #fbfbfb solid 4px;
-  cursor:pointer;
   background-color: #3c948b;
+  border: #fbfbfb solid 4px;
   color:white;
+  cursor:pointer;
+  float:left;
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
   font-size:24px;
-  padding-top:22px;
-  padding-bottom:22px;
-  -webkit-transition: all 0.3s;
-  -moz-transition: all 0.3s;
-  transition: all 0.3s;
-  margin-top:-4px;
   font-weight:700;
+  margin-top:-4px;
+  padding-bottom:22px;
+  padding-top:22px;
+  width: 100%;
 }
 
 #button-blue:hover{
@@ -115,28 +112,18 @@ input:focus, textarea:focus {
 }
   
 .submit:hover {
+  background-color:white;
   color: #3498db;
   width:100%;
-  background-color:white;
-}
-.ease {
-  width: 0px;
-  height: 74px;
-  background-color: #fbfbfb;
-  -webkit-transition: .3s ease;
-  -moz-transition: .3s ease;
-  -o-transition: .3s ease;
-  -ms-transition: .3s ease;
-  transition: .3s ease;
 }
 
 @media only screen and (max-width: 580px) {
   #form-div{
     left: 3%;
-    margin-right: 3%;
-    width: 88%;
     margin-left: 0;
+    margin-right: 3%;
     padding-left: 3%;
     padding-right: 3%;
+    width: 88%;
   }
 }
